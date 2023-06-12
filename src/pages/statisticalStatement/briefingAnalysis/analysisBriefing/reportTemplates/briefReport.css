@@ -1,0 +1,434 @@
+html, body{
+    width: 100%;
+    width:  842px;
+}
+body{
+    padding-bottom: 40px;
+}
+html, body,*{
+    padding:  0;
+    box-sizing: border-box;
+    margin:  0;
+    font-family: SimSun;
+}
+
+.content-wrapper{
+    padding: 0 5%;
+}
+
+.sub-menu .song{
+    float: left;
+}
+
+.song{
+    font-family: 仿宋;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border-color: #000;
+    font-size: 14px;
+}
+.menu-dot{
+    font-weight: bold;
+    letter-spacing: 3px;
+    float: right;
+}
+
+.fullpage{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.red{
+    color: black;
+    font-style: normal;
+    font-family: FangSong;
+}
+
+.text-center{
+    text-align: center;
+    font-weight: 100;
+}
+
+.img-wrapper{
+    margin-bottom:  80px;
+}
+
+.page-title{
+    margin-top:  30px;
+    font-size: 34px;
+}
+
+.city{
+    margin-top:  80px;
+    font-size: 34px;
+}
+
+.company{
+    margin-top:  150px;
+    font-size: 21px;
+}
+.date{
+    margin-top:  30px;
+    font-size: 21px;
+}
+
+
+.sub-menu{
+    width: 100%;
+    font-size:  21px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top:  16px;
+}
+.sm-menu{
+    width: 100%;
+    font-size:  21px;
+    display: inline-block;
+    font-weight: 100;
+    margin-top:  16px;
+    /*text-indent: 30px;*/
+}
+.sm-menu .song{
+    float:left
+}
+
+.pagenum{
+    float: right;
+}
+
+.content-title{
+    font-family: 仿宋;
+    text-align: left;
+    font-size: 21px;
+}
+
+.text-wrapper{
+    text-indent:  20px;
+    margin-bottom: 14px;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: 	FangSong;
+}
+
+.content-title{
+    margin-bottom: 14px;
+}
+
+.img-wrapper{
+    margin-bottom:  20px;
+}
+
+.table-title{
+    margin-bottom:  14px;
+    font-size:  20px;
+    font-family: SimSun;
+}
+
+.table-wrapper{
+
+    margin-bottom:  18px;
+}
+
+.table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.table tr th, .table tr td{
+    text-align: center;
+    height: 26px;
+    font-family: FangSong;
+}
+.table tr th{
+    font-weight: 800;
+}
+
+.table tr td{
+    color:  black;
+}
+.img-table{
+    border-collapse: collapse;
+    width: 482px;
+    margin:  0 136px;
+    border:solid #d8d8d8; border-width:1px 0px 0px 1px;
+    font-weight: 200;
+}
+.img-table td, .img-table th{
+    border:solid #d8d8d8; border-width:0px 1px 1px 0px; padding-left:10px;
+    font-weight: 100;
+    text-align: center;
+    /*height: 26px;*/
+    font-family: SimSun;
+    font-size: 12px;
+}
+.img-table-other td{
+    word-break: keep-all;
+}
+html, body{
+    width: 100%;
+    width:  842px;
+}
+body{
+    padding-bottom: 40px;
+}
+
+.fullpage {
+    width: 100%;
+    padding: 30px 5%;
+    box-sizing: border-box;
+}
+.margin-tm {
+    margin: 20px 0px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    height: 40px;
+    line-height:40px;
+    background-color: #efefef;
+    z-index: 99;
+    text-indent: 74px;
+}
+.fixed a{
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.margin-t {
+    margin-top: 60px;
+}
+
+.t-center {
+    text-align: center;
+}
+/*封面页*/
+h1, h2 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 34px;
+    font-family: SimSun;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    padding:0px;
+    margin:0px;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: "仿宋";
+    padding:0px;
+    margin:0px;
+}
+
+/* table css */
+html, body,*{
+    padding:  0;
+    box-sizing: border-box;
+    margin:  0 auto;
+    font-family: SimSun;
+}
+
+.content-wrapper{
+    padding: 0 5%;
+}
+
+.sub-menu .song{
+    float: left;
+}
+
+.song{
+    font-family: 仿宋;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+    border-color: #000;
+    font-size: 14px;
+}
+.menu-dot{
+    font-weight: bold;
+    letter-spacing: 3px;
+    float: right;
+}
+
+/*.fullpage{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+}*/
+.mlb{
+    margin-bottom:200px;
+}
+
+.brief{
+    text-indent: 50px;
+    font-size:  16px;
+    height: 40px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    padding-left: 24px;
+    line-height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 99999;
+}
+.brief a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+.red{
+    color: black;
+    font-style: normal;
+    font-family: FangSong;
+}
+
+.text-center{
+    text-align: center;
+    font-weight: 100;
+}
+
+.img-wrapper{
+    margin-bottom:  80px;
+}
+
+.page-title{
+    margin-top:  30px;
+    font-size: 34px;
+}
+.info-title{
+    font-weight: 600 !important;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.info-h3{
+    margin: 10px 0px 10px 0px;
+    font-weight: 600 !important;
+    font-size: 20px
+}
+
+.city{
+    margin-top:  80px;
+    font-size: 34px;
+}
+
+.company{
+    margin-top:  150px;
+    font-size: 21px;
+}
+.date{
+    margin-top:  30px;
+    font-size: 21px;
+}
+
+
+.sub-menu{
+    width: 100%;
+    font-size:  21px;
+    display: inline-block;
+    font-weight: 600;
+    margin-top:  16px;
+}
+.sm-menu{
+    width: 100%;
+    font-size:  21px;
+    display: inline-block;
+    font-weight: 100;
+    margin-top:  16px;
+    /*text-indent: 30px;*/
+}
+.sm-menu .song{
+    float:left
+}
+
+.pagenum{
+    float: right;
+}
+/*列表页*/
+.textStyle {
+    font-family: "仿宋";
+    font-size: 22px;
+    line-height: 2;
+}
+
+.content-title{
+    font-family: 仿宋;
+    text-align: left;
+    font-size: 21px;
+}
+
+.text-wrapper{
+    text-indent:  20px;
+    margin-bottom: 14px;
+    line-height: 24px;
+    font-size: 21px;
+    font-family: FangSong;
+}
+
+.content-title{
+    margin-bottom: 14px;
+}
+
+.img-wrapper{
+    margin-bottom:  20px;
+}
+
+.table-title{
+    margin-bottom:  14px;
+    font-size:  20px;
+    font-family: SimSun;
+}
+
+.table-wrapper{
+
+    margin-bottom:  18px;
+}
+
+.table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.table tr th, .table tr td{
+    text-align: center;
+    height: 26px;
+    font-family: FangSong;
+}
+.table tr th{
+    font-weight: 800;
+}
+
+.table tr td{
+    color:  black;
+}
+.img-tableLong{
+	width:100% !important;
+}
+.img-table{
+    border-collapse: collapse;
+    width:80%;
+    margin:  0 auto;
+    border:solid #535353; border-width:1px 0px 0px 1px;
+    font-weight: 200;
+}
+.weightSize{
+	font-weight: 600 !important;
+}
+.img-table td, .img-table th{
+    border:solid #535353;
+    border-width:1px;
+    padding-left:10px;
+    text-align: center;
+    /*height: 26px;*/
+    font-family: "微软雅黑";
+    font-size: 14px;
+	padding:10px;
+}
+.img-table-other td{
+    word-break: keep-all;
+}

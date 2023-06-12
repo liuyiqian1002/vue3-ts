@@ -1,0 +1,237 @@
+html, body {
+  width: 842px;
+  height: 100%;
+}
+
+html, body, * {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.fullpage {
+  width: 100%;
+  padding: 30px 5%;
+  box-sizing: border-box;
+}
+
+.margin-tm {
+  margin: 20px 0px;
+}
+.fixed{
+  position: absolute;
+  bottom: 14px;
+  width:100%;
+  height: 40px;
+  line-height:40px;
+  background-color: #efefef;
+  z-index: 99;
+  text-indent: 74px;
+}
+.fixed a{
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.margin-t {
+  margin-top: 60px;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.h400 {
+  height: 350px;
+}
+
+.pall20 {
+  padding: 20px;
+}
+
+/*封面页*/
+h1, h2 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 34px;
+  font-family: SimSun;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  padding:0px;
+  margin:0px;
+}
+
+h4 {
+  font-size: 25px;
+  font-family: "仿宋";
+  padding:0px;
+  margin:0px;
+}
+
+/*目录页*/
+ul, li {
+  padding: 0;
+  margin: 0;
+  font-family: "仿宋";
+  list-style: none;
+}
+
+.sub-menu {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sub-menu span {
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+}
+
+.sub-menu span a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.sub-menu span a:hover {
+  text-decoration: underline;
+  color: #000;
+  cursor: pointer;
+}
+
+.sub-menu span:first-child {
+  display: block;
+}
+
+.sub-menu:after {
+  content: "............................................";
+  height: 50px;
+  line-height: 50px;
+  z-index: 4;
+  float: right;
+  position: absolute;
+  right: 25px;
+}
+
+.sub-menu .pageNumber {
+  right: 0px;
+  width: 30px;
+  text-align: right;
+}
+
+.pad-left50 {
+  padding-left: 50px;
+}
+
+.pad-left100 {
+  padding-left: 100px;
+}
+
+.text-in {
+  text-indent: 50px;
+}
+
+/*列表页*/
+.textStyle {
+  font-family: "仿宋";
+  font-size: 22px;
+  line-height: 2;
+}
+
+.tableWrapper {
+  width: 500px;
+  margin-left: 57%;
+  transform: translateX(-300px);
+
+}
+
+.tableWrapperList {
+  width: 66%;
+  margin-left: 17%;
+}
+
+
+.tableWrapperList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableWrapperList table tr {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-family: "仿宋";
+}
+
+.tableWrapperList header {
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 60px;
+  border-bottom: none;
+}
+
+.tableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tableWrapper table tr {
+  height: 30px;
+  text-align: center;
+  font-family: "仿宋";
+}
+
+/*头部着重*/
+.boldHead table tr:first-child {
+  font-weight: 600;
+}
+
+.boldFooter table tr:last-child {
+  font-weight: 600;
+}
+
+.tableWrapper header {
+  width: 600px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  border: 1px dashed #E4E2E2;
+  border-bottom: none;
+}
+
+.echartWrapper {
+  width: 500px;
+  margin-left: 17%;
+  border: 1px solid #E4E2E2;
+  position: relative;
+  display: inline-block;
+}
+
+.fontSmall td,th {
+  font-size: 14px;
+  border:solid #535353;
+  border-width:1px;
+  vertical-align: middle;
+}
+
+.titleTable {
+  position: absolute;
+  top: 20px;
+  font-size: 22px;
+  font-family: '仿宋';
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}

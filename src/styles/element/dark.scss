@@ -1,0 +1,32 @@
+// only scss variables
+
+
+
+$--colors: (
+  "primary": (
+    "base": #16B1DBFF,
+  ),
+);
+
+$--table: (
+        ("bg-color": #fff)
+);
+$--bg-color: (
+  '': #191919
+);
+
+
+@forward "element-plus/theme-chalk/src/dark/var.scss" with (
+  $colors: $--colors,
+  $bg-color: $--bg-color
+
+);
+
+html.dark {
+  --tw-color-border: rgba(255,255,255,0.1);
+  --tw-tag-bg-color: #0A0A0A;
+  --tw-table-header: #242D30FF;
+    --tw-table-cell: #1F2629FF;
+  --tw-dtjc-select: rgba(247,247,247,0.08) ;
+
+}

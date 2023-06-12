@@ -1,0 +1,43 @@
+$--colors: (
+        "primary": (
+                "base": #16B1DBFF,
+        ),
+);
+
+$--bg-color: (
+        '': #191919
+);
+
+// 我们可以将其添加到自定义名称空间，默认为 'el'
+//@forward "element-plus/theme-chalk/src/mixins/config.scss" with (
+//  $namespace: "ep"
+//);
+
+// 你应该在scss中使用它们，因为我们用sass来计算它。
+// 注释下一行使用默认颜色
+@forward "element-plus/theme-chalk/src/common/var.scss" with (
+  // 不要使用相同的名称，它将覆盖。
+  $colors: $--colors,
+  $button-padding-horizontal: ("default": 50px),
+  $bg-color: $--bg-color
+
+);
+
+// 如果你想导入所有
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+
+//你可以注释它来隐藏调试信息。
+// @debug $--colors;
+
+//自定义暗变量
+@use "./dark.scss";
+
+
+:root {
+        --el-color-primary: #27CAFF;
+        --tw-tag-bg-color: #F0F2F5;
+        --tw-color-border: #cccccc;
+        --tw-table-header: #F1F1F6FF;
+        --tw-table-cell: #F8F8FCFF;
+        --tw-dtjc-select: rgba(247,247,247,1);
+}

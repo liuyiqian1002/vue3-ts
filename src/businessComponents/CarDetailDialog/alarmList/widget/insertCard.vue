@@ -1,0 +1,144 @@
+<template>
+    <div class="card-widget-wrapper">
+        <!-- <div class="head">插卡信息</div> -->
+        <div class="table-wrapper" style="background:#fcf9f2;height: auto;top: 5px;right: 5px;z-index: 1000;">
+            <div>
+                <div class="loading_box" style="width:280px;">
+                    <ul class="loading_content" style="overflow: auto;margin-right: 0px;height: 250px;">
+                        <div class="loading_content_wrap" id="loading_cart1">
+                            <div v-for="driverRecord in data.driverChangeCardRecords">
+                                <li>
+                                    <div class="content_list" style="justify-content: center">
+                                        <div class="content_text">插卡</div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="content_list">
+                                        <div class="content_text">姓名</div>
+                                    </div>
+                                    <div class="content_list">
+                                        <div class="content_text">{{ driverRecord.drivername }}</div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="content_list">
+                                        <div class="content_text">时间</div>
+                                    </div>
+                                    <div class="content_list">
+                                        <div class="content_text">{{ driverRecord.inCardTimeStr }}</div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="content_list">
+                                        <div class="content_text">资格证</div>
+                                    </div>
+                                    <div class="content_list">
+                                        <div class="content_text">{{ driverRecord.licence }}</div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="content_list">
+                                        <div class="content_text">身份证</div>
+                                    </div>
+                                    <div class="content_list">
+                                        <div class="content_text">{{ driverRecord.driveridcard }}</div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup lang="ts">
+
+const { row } = defineProps<{
+    title: String,
+    data: any
+    row: any
+}>()
+const proxy: any = getCurrentInstance()?.proxy
+console.log(row, 'row insert card')
+
+</script>
+
+<style scoped lang="scss">
+.card-widget-wrapper {
+    width: 100%;
+    text-align: center;
+
+    .table-wrapper {
+        .loading_box {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #eeeff1;
+            border-radius: 4px;
+            position: relative;
+
+            .loading_content {
+                height: calc(100% - 48px);
+                overflow-y: scroll;
+                padding: 0px;
+                margin: 0;
+
+                margin-right: -6px;
+
+                .loading_content_wrap {
+                    width: 100%;
+
+                    li {
+                        overflow: hidden;
+                        display: flex;
+                        align-items: center;
+                        list-style: none;
+                        border-bottom: 1px solid #eeeff1;
+                        margin-right: 0px;
+                        position: relative;
+
+                        .content_list {
+                            text-indent: 20px;
+                            padding: 10px 0px;
+                            display: flex;
+                            align-items: center;
+                            font-size: 14px;
+
+                            .content_text {}
+                        }
+                        .content_list:last-child{
+                            flex: 1;
+                        }
+
+                        .content_list:after {
+                            content: '';
+                            position: absolute;
+                            height: 100%;
+                            width: 1px;
+                            background: #eeeff1;
+                        }
+
+                        .content_list:first-child::after {
+                            content: '';
+                            position: absolute;
+                            height: 100%;
+                            width: 1px;
+                            background: transparent;
+                        }
+
+                        .content_list:first-child {
+                            // flex: auto !important;
+                            width: 100px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+</style>
